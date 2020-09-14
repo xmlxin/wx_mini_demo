@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "v-tips" : "/components/addTips/index"
+  }
+}

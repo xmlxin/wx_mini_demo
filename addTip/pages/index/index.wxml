@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+
+  <v-tips text="hi~ 点击「添加到我的小程序」" duration="1111" />
+
+</view>
