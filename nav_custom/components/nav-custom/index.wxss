@@ -1,0 +1,8 @@
+.gif-black {
+  display: block;
+}
+
+.bg-lightGrey {
+  background-color: #ededed;
+  color: white;
+}

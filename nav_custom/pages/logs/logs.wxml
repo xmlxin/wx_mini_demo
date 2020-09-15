@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <navigationBar id="navigationBar" placeholderBg="" color="{{color}}" 
+  title="{{title}}" back="{{true}}" background="{{barBg}}" fixed="{{fixed}}"  
+  backConfirm="{{backConfirm}}"  backStyle="{{backStyle}}"  backEvent="{{backEvent}}" 
+  bind:back="backEvent"  backHomeEvent="{{backHomeEvent}}" bind:backHome="backHomeEvent"/>
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>
